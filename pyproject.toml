@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scalvs-metatron"
+version = "0.1.0"
+description = "Scalvs.ai Metatron bot tools with an optional, default-off geo-routing switch."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+scalvs-metatron = "scalvs_metatron.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["scalvs_metatron*"]
