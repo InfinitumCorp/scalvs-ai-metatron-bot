@@ -1,0 +1,11 @@
+# Downloaded v2fly geo binaries. Never commit these files.
+data/geo/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
